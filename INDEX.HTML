@@ -1,0 +1,350 @@
+<!--
+Tugasan Kelompok 1 Informatika
+
+NAME REMOVED FOR PRIVACY REASONS!
+
+///
+
+All Content on this website from various sources:
+1. Contents
+	|-SMP Labschool Jakarta Homepage
+	|-Beranda Informasi Online (SIL, SIMP, dan Akademik)
+	|-Labschool LMS (smpjkt.elabschool.sch.id)
+
+2. Images
+	|-SMP Labschool Jakarta
+	|-Web Searches (i forgor)
+	
+3. Technologies used:
+	|-HTML
+	|-CSS
+	|-Bootstrap (5.1.3)
+
+///
+
+follow me on ig @ododevs
+add me as a friend on discord: ododevs@2851
+send me an email: odoookentangdevelops@gmail.com
+send help uwu~~
+
+///
+
+Thanks for looking at this weird ahh comment ;-)
+-->
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<title>Main Menu | SMP Labschool Jakarta</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
+		</script>
+		<link rel="icon" type="image/x-icon" href="labslg.png">
+		<style>
+			a {
+			color: black !important;
+			text-decoration: none;
+			}
+			.card{
+				border-radius: 5px;
+				background: #fff;
+				transition: .3s cubic-bezier(0.42, 0, 1,-0.02),.3s box-shadow,.3s -webkit-transform cubic-bezier(0.42, 0, 1,-0.02),.3s background-color;
+			}
+
+			.card:hover{
+				transform: scale(1.01);
+				box-shadow: 0px 1px 0px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+				background-color: #fbfbfb; <-- slowly weep -->
+
+			}
+			.navimg{
+				cursor: pointer;
+				transition: .3s transform cubic-bezier(0.42, 0, 1,-0.02),.3s box-shadow,.3s -webkit-transform cubic-bezier(0.42, 0, 1,-0.02);
+			}
+
+			.navimg:hover{
+				transform: scale(1.03);
+				transition: .3s transform cubic-bezier(0.42, 0, 1,-0.02),.3s box-shadow,.3s -webkit-transform cubic-bezier(0.42, 0, 1,-0.02);
+
+			}
+			.nav-link:hover{
+				border-radius: 6px;
+				background-color: #e2e7ee; <-- slowly weep -->
+			}
+			.fill {
+				display: flex;
+				overflow: hidden;
+				width: 100%;
+			}
+			<!-- fancy ahh css -->
+		</style>
+	</head>
+	<body class="bg-light">
+		<!-- navbar -->
+		<nav class="navbar sticky-top bg-white shadow" style="opacity: 0.98;">
+			<div class="container-fluid">
+			<img class="navimg m-2" src="labslg3.png" height="50px"></img>
+			<a class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span>
+					<i class="bi-list"></i>
+				</span>
+			</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item p-1">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item p-1">
+						<a class="nav-link active" aria-current="page" href="#">Galeri</a>
+					</li>
+					<li class="nav-item p-1">
+						<a class="nav-link active" aria-current="page" href="#">Kontak</a>
+					</li>
+					<li class="nav-item p-1">
+						<a class="nav-link active" aria-current="page" href="#">Alumni</a>
+					</li>
+					<li class="nav-item p-1">
+						<a class="nav-link active" aria-current="page" href="#">Tentang</a>
+					</li>
+					<form class="d-flex p-1">
+						<input class="form-control me-2" type="search" placeholder="Type your keywords and click search..." aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</ul>
+			</div>
+		  </div>
+		</nav>
+		<!-- totally not stolen carousel module -->
+		<div id="demo" class="carousel slide container mt-3" data-bs-ride="carousel">
+		  <div class="carousel-indicators">
+			<a type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></a>
+			<a type="button" data-bs-target="#demo" data-bs-slide-to="1"></a>
+			<a type="button" data-bs-target="#demo" data-bs-slide-to="2"></a>
+		  </div>
+		  <div class="carousel-inner shadow" style="border-radius: 5px;">
+			<div class="carousel-item active">
+			  <img src="saksi.png" alt="Los Angeles" class="fill">
+				<div class="carousel-caption card p-2 text-dark" style="opacity: 0.95;">
+					<h4>Pembinaan Mental dan Kemandirian SMP Labschool</h4>
+					<p>
+						Adalah upaya untuk mengoptimalkan potensi peserta didik secara seimbang ditempuh melalui jalur pembinaan karakter.
+					</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+			  <img src="ltds.png" alt="Los Angeles" class="fill">
+				<div class="carousel-caption card p-2 text-dark" style="opacity: 0.95;">
+					<h4>Latihan Dasar Kepemimpinan</h4>
+					<p>
+						Para siswa diarahkan untuk mengikuti kegiatan pra-LDKS, LDKS, Latihan
+						Kepemimpinan Siswa (LAPINSI), Bina Mental Kepemimpinan Siswa (BINTAMA), Tes Potensi Organisasi
+						(TPO) OSIS atau MPK.
+					</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+			  <img src="saman.png" alt="Los Angeles" class="fill">
+				<div class="carousel-caption card p-2 text-dark" style="opacity: 0.95;">
+					<h4>Kegiatan Ekstrakurikuler</h4>
+					<p>
+						Disediakannya kegiatan ekstrakurikuler yang bervariasi dan berguna untuk meningkatkan keahlian siswa pada bidang tertentu.
+					</p>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</button>
+		</div>
+		</div>
+		<div class="container-fluid col-8 mt-5">
+		<!-- fancy internal labschool docs -->
+		<h3>
+			Beranda Informasi Online
+		</h3>
+			<div class="card m-1">
+				<a href="https://sil.labschool-unj.sch.id/login/">
+					<div class="card-body">
+						<i class="bi-file-earmark-spreadsheet"></i>
+						<h4 class="card-title">
+							Sistem Informasi Labschool (SIL)
+						</h4>
+					</div>
+				</a>
+			</div>
+			<div class="card m-1">
+				<a href="https://simpeg.labschool-unj.sch.id/login/">
+					<div class="card-body">
+						<i class="bi-person-badge"></i>
+						<h4 class="card-title">
+							Sistem Informasi Manajemen Pegawai (SIMP<small class="text-muted">eg</small>)
+						</h4>
+					</div>
+				</a>
+			</div>
+			<div class="card m-1">
+				<a href="https://smpjkt.elabschool.sch.id">
+					<div class="card-body">
+						<i class="bi-card-checklist"></i>
+						<h4 class="card-title">
+							Elabschool LMS (E-Learning)
+						</h4>
+					</div>
+				</a>
+			</div>
+			</div>
+		</div>
+		<div class="container-fluid col-8 mt-5">
+		<!-- flex intensifies -->
+		<h3>
+			Statistik Sekolah
+		</h3>
+			<div class="card m-1">
+				<div class="card-body">
+					<i class="bi-award"></i>
+					<h4 class="card-title">
+						126+ Penghargaan
+					</h4>
+				</div>
+			</div>
+			<div class="card m-1">
+				<div class="card-body">
+					<i class="bi-calendar-event"></i>
+					<h4 class="card-title">
+						42+ Program Tahunan
+					</h4>
+				</div>
+			</div>
+			<div class="card m-1">
+				<div class="card-body">
+					<i class="bi-people"></i>
+					<h4 class="card-title">
+						4.359+ Pelajar
+					</h4>
+				</div>
+			</div>
+			<!-- pretend this isn't implemented badly, i used a brickton of workarounds and me dying-->
+			<div class="card m-1 mt-5">
+				<div class="card-body">
+				<div class="carousel-item active">
+					  <img src="praktikum.jpg" alt="Los Angeles" class="fill rounded-2">
+						<div class="carousel-caption rounded-2 p-2 bg-light text-dark" style="opacity: 0.95;">
+							<h2>Kegiatan Pembelajaran</h2>
+						</div>
+					</div>
+					<img class="rounded-2 fill" src="praktikum.jpg" width="300" alt="Card image cap">
+					<p class="card-text mt-2">
+						Layanan pembelajaran di SMP diselenggarakan dengan memperhatikan keberagaman kecerdasan siswa (Multiple Intellegencies). Untuk menciptakan kegiatan pembelajaran yang menantang dan menyenangkan, kegiatan pembelajaran dilakukan dengan dukungan ruangan sejuk ber-AC dan variasi audio video multi media di kelas maupun di Media Resource Centre (MRC).<br><br>
+						Pelayanan Bilingual (pembelajaran dengan menggunakan pengantar Bahasa Inggris – Indonesia) pada mata pelajaran Sains (IPA Biologi dan Fisika), Matematika, dan Teknologi Informasi akan siswa dapatkan sejak mereka duduk di kelas VII. Dengan tersedianya green house, laboratorium IPA dan bahasa sangat menunjang kemampuan siswa untuk berlatih dan mengadakan penelitian.<br><br>
+						Kemampuan untuk menulis dan berpikir logis rasional ditumbuh kembangkan dengan metode pembelajaran yang mengarahkan siswa untuk menggali informasi materi tertentu. Untuk menunjang pelayanan tersebut disediakan fasilitas perpustakaan, digital library, dan komputer yang dilengkapi dengan fasilitas internet.<br><br>
+						Pembelajaran di luar kelas diterapkan guna menambah wawasan dan memperkaya pengalaman belajar siswa dengan mengunjungi berbagai obyek pendukung seperti pabrik, museum, candi atau situs-situs peninggalan bersejarah, tempat-tempat penelitian ruang angkasa dan lain sebagainya.<br><br>
+					</p>
+					
+				</div>
+			</div>
+			<!-- yt embed because why not? -->
+			<div class="card m-1 p-2">
+				<div class="rounded-4">
+					<iframe 
+						height="315" 
+						class="fill"
+						src="https://www.youtube-nocookie.com/embed/BOYOzjrbxCQ?controls=0" 
+						title="YouTube Video Player Embed" 
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						>
+					</iframe>
+				</div>
+			</div>
+		</div>
+		<div class="mt-5 container-fluid col-8">
+			<!-- totally your usual news feed -->
+			<h3>
+				Berita
+			</h3>
+			<div class="card m-1">
+			<a href="#">
+			<div class="card-body">
+					<h4 class="card-title">
+						Pementasan Teater Labschool di Taman Ismail Marzuki
+					</h4>
+					<p class="card-text">
+						<small class="text-muted">
+							21 September 2022
+						</small>
+					</p>
+				</div>
+			</a>
+			</div>
+			<div class="card m-1">
+			<a href="#">
+				<div class="card-body">
+					<h4 class="card-title">
+						Panduan Penerimaan Siswa Baru SMP-SMA Labschool UNJ 2022-2023
+					</h4>
+					<p class="card-text">
+						<small class="text-muted">
+							20 Desember 2021
+						</small>
+					</p>
+				</div>
+			</a>
+			</div>
+			<div class="card m-1">
+			<a href="#">
+				<div class="card-body">
+					<h4 class="card-title">
+						Ngopi Bareng SMP Labschool Jakarta
+					</h4>
+					<p class="card-text">
+						<small class="text-muted">
+							11 Desember 2021
+						</small>
+					</p>
+				</div>
+			</a>
+			</div>
+			<div class="card m-1">
+			<a href="#">
+			<div class="card-body">
+					<h4 class="card-title">
+						Bersatu Bantu Semeru
+					</h4>
+					<p class="card-text">
+						<small class="text-muted">
+							10 Desember 2021
+						</small>
+					</p>
+				</div>
+			</a>
+			</div>
+		</div>
+		<!-- footers -->
+		<div class="container-fluid mt-4 shadow-2 text-light p-2" style="background-color: #483d8b;">
+			<div class="text-center justify-items-center">
+			<a href="https://jakarta.labschool-unj.sch.id/labschool-center-for-excelence/"><img  class="p-2 mt-4 navimg" src="lcelg.png"></a>
+			<!-- our team info, frfr they ain't doin their part legit, 
+			that's why i put strike on them, but if they mentioned anything abt the project, 
+			and ACTUALLY contribute to it.-->
+			<p>
+				<h6>Proyek Web Design Kelompok 1</h6><br>
+				<p>NAME REMOVED FOR PRIVACY REASONS</p>
+				<!-- prolly goin to ramp up the version name to go to v6.9.4-->
+				ver 6.9.420
+			</p>
+			<!-- h7 exists? sus -->
+			<h7 class="p-2">
+				<a href="tel:02147860038" class="text-white"><i class="bi-telephone"></i> (021) 4786-0038 (Hunting)</a>
+			</h7>
+			<h7 class="p-2">
+				<a href="mailto:info@labschoolunj.sch.id" class="text-white"><i class="bi-envelope"></i> info@labschoolunj.sch.id</a>
+			</h7>
+			<h7 class="p-2">
+				<a href="https://www.youtube.com/channel/UCzppdsy7eEGGzMp3but-sGg" class="text-white"><i class="bi-youtube"></i> SMP Labschool Jakarta</a>
+			</h7>
+			</div>
+		</div>
+	</body>
+</html>
